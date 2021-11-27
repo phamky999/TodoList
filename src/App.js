@@ -17,7 +17,8 @@ import Albumsv3 from './components/pages/Albumsv3';
 import NotFound from './components/pages/NotFound';
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    // basename={process.env.PUBLIC_URL}
+    <Router>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
