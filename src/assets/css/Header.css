@@ -1,0 +1,32 @@
+header {
+    font-size: 1.8rem;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.header-logo,
+.header-menu,
+.header-menu ul,
+.header-menu li {
+  height: 100%;
+  line-height: 60px;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+.header-logo em {
+  font-size: 2.8rem;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+}

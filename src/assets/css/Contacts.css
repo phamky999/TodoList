@@ -1,0 +1,117 @@
+.contact-box{
+    padding: 20px 0;
+}
+
+.contact-box .title{
+    padding-bottom: 20px;
+}
+.contact-box .title h3{
+    font-size: 2rem;
+    font-weight:600;
+}
+.contact-box .title span{
+    display: inline-block;
+    width: 150px;
+    border-bottom: 2px solid #666;
+}
+
+.card{
+    border:1px solid #666;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-item{
+    font-size:1.6rem;
+}
+.contact-item .item-title{
+    font-size: 1.8rem;
+    line-height:2.8rem;
+    font-weight: 500;
+}
+.item-title i{
+    cursor: pointer;
+    margin-left:10px;
+    font-size: 2rem;
+}
+.item-body{
+    margin: 10px 0 0 10px;
+    line-height:2.8rem;
+    clear: both;
+}
+.item-body a{
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding: 4px 10px;
+    background-color:rgb(0, 105, 207);
+    color:#ffffff;
+}
+.item--del{
+    float: right;
+}
+/*******************************************/
+
+.form-box{
+    font-size:1.6rem;
+    font-weight:400;
+    padding: 0 20px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+.form-group label{
+    display: block;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.form-group input{
+    font-family: "Montserrat", sans-serif;
+    font-size:1.6rem;
+    font-weight:400;
+    padding: 4px;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.btn{
+    font-family: "Montserrat", sans-serif;
+    font-size:1.5rem;
+    font-weight:400;
+    color: #ffffff;
+    padding: 8px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn.btn-submit{
+    background-color:rgb(0, 105, 207);
+}
+.btn.btn-cancel{
+    background-color:rgb(200, 35, 51);
+}
+.btn.btn--disable{
+    background-color: rgb(201, 200, 200);
+    color: #333;
+    pointer-events: none;
+}
+.form-group--invalid label{
+    color: rgb(240, 38, 38);
+}
+.form-group--invalid input{
+    border: 1px solid rgb(240, 38, 38);
+}
+.invalid-feedback{
+    padding: 5px 0 0 0 ;
+    font-size:1.4rem;
+    color: rgb(240, 38, 38);
+}

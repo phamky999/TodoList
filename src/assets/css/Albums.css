@@ -1,0 +1,22 @@
+.album-box{
+    padding: 20px 0;
+}
+
+.album-box .title{
+    padding-bottom: 20px;
+}
+.album-box .title h3{
+    font-size: 2rem;
+    font-weight:600;
+}
+.album-box .title span{
+    display: inline-block;
+    width: 150px;
+    border-bottom: 2px solid #666;
+}
+.album-box .title .description{
+    padding: 10px 0 0 0;
+}
+.album-item h3{
+    font-weight: 600;
+}
